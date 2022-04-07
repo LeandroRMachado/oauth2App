@@ -7,6 +7,13 @@ import { SignInContent } from '../../components/SignInContent';
 
 import { styles } from './styles';
 
+type AuthResponse = {
+  type: string;
+  params: {
+    access_token: string;
+  }
+}
+
 export function SignIn() {
   const navigation = useNavigation();
 
