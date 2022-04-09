@@ -29,7 +29,7 @@ export function Profile() {
   const navigation = useNavigation();
   const route = useRoute()
 
-  const { token } = route.params as Params
+  const { token } = route.params as Params 
 
   async function handleLogout() {
     navigation.navigate('SignIn');
