@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   name: {
     fontFamily: theme.fonts.bold,
     color: theme.colors.text,
-    fontSize: 32,
+    fontSize: 30.5,
     marginTop: 7
   },
   email: {
